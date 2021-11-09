@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon9.png" type="image/x-icon">
+    <title>Introducción DOM JS</title>
+</head>
+
+<body class="d-flex vh-100 justify-content-center align-items-center">
+    <main class="container h-auto w-auto d-flex flex-row border rounded col-4 p-3 shadow">
+        <section class="d-flex h-auto flex-column p-2 justify-content-around align-items-center col-4">
+            <div>
+                <img class="boton" src="img/plus.png" alt="" id="incrementa">
+            </div>
+            <div>
+                <img class="boton" src="img/minus.png" alt="" id="decrementa">
+            </div>
+            <div>
+                <img class="boton" src="img/auto.png" alt="" id="automatico">
+            </div>
+        </section>
+        <section class="d-flex h-auto flex-column justify-content-around align-items-center col-8 p-3">
+            <div class="p-5">
+                <span class="numero" id="numero">0</span>
+            </div>
+            <div class="automatico d-flex flex-row border rounded p-2 shadow" id="configura" hidden>
+                <div class="p-2">
+                    <div>
+                        <label for="">Mín</label>
+                        <input type="number" id="minimo">
+                    </div>
+                    <div>
+                        <label for="">Máx</label>
+                        <input type="number" id="maximo">
+                    </div>
+                </div>
+                <div class="p-2 shadow">
+                    <button class="btn h-100 rounded bg-primary text-white " id="ejecuta">Ejecutar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.numero {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.boton {
+  cursor: pointer;
+}
+
+.automatico {
+  visibility: hidden;
+}
